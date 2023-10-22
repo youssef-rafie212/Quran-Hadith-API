@@ -61,11 +61,11 @@ replace `<limit per page>` with the number of documents you want to fetch per pa
 
 #### Get All Surahs
 
-`GET https://quran-and-hadith-api.onrender.com/api/v1/surahs`
+`GET https://quran-hadith-api.onrender.com/api/v1/surahs`
 
 #### Get Surah
 
-`GET https://quran-and-hadith-api.onrender.com/api/v1/surahs/<surah number>`
+`GET https://quran-hadith-api.onrender.com/api/v1/surahs/<surah number>`
 
 replace `<surah number>` with the number of surah you want to fetch
 
@@ -73,17 +73,17 @@ replace `<surah number>` with the number of surah you want to fetch
 
 #### Get All Ayat
 
-`GET https://quran-and-hadith-api.onrender.com/api/v1/ayat`
+`GET https://quran-hadith-api.onrender.com/api/v1/ayat`
 
 #### Get All Ayat In Surah
 
-`GET https://quran-and-hadith-api.onrender.com/api/v1/surahs/<surah number>/ayat`
+`GET https://quran-hadith-api.onrender.com/api/v1/surahs/<surah number>/ayat`
 
 replace `<surah number>` with the number of surah you want to fetch the ayat for
 
 #### Get Ayah In Surah
 
-`GET https://quran-and-hadith-api.onrender.com/api/v1/surahs/<surah number>/ayat/<ayah number>`
+`GET https://quran-hadith-api.onrender.com/api/v1/surahs/<surah number>/ayat/<ayah number>`
 
 replace `<surah number>` with the number of surah you want to fetch the ayah for
 
@@ -93,11 +93,11 @@ replace `<ayah number>` with the number of ayah you want to fetch
 
 #### Get All Hadiths
 
-`GET https://quran-and-hadith-api.onrender.com/api/v1/hadiths`
+`GET https://quran-hadith-api.onrender.com/api/v1/hadiths`
 
 #### Get Hadith
 
-`GET https://quran-and-hadith-api.onrender.com/api/v1/hadiths/<hadith number>`
+`GET https://quran-hadith-api.onrender.com/api/v1/hadiths/<hadith number>`
 
 replace `<hadith number>` with the number of hadith you want to fetch
 
