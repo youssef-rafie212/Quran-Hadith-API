@@ -1,4 +1,4 @@
-# Quran & Hadith RESTful API [1.0.0]
+# Quran & Hadith RESTful API [1.1.0]
 
 You can use this API to fetch data about the holy Quran and Hadiths (Arabic / English) for your app or website
 
@@ -42,6 +42,16 @@ You can use this API to fetch data about the holy Quran and Hadiths (Arabic / En
   ```JavaScript
   {
   number: Int,
+  text: String,
+  textEn: String,
+  }
+  ```
+
+- Ayah/Hadith of the day
+
+  ```JavaScript
+  {
+  date: Date,
   text: String,
   textEn: String,
   }
@@ -100,6 +110,16 @@ replace `<ayah number>` with the number of ayah you want to fetch
 `GET https://quran-hadith-api.onrender.com/api/v1/hadiths/<hadith number>`
 
 replace `<hadith number>` with the number of hadith you want to fetch
+
+### Ayah/Hadith Of The Day :
+
+#### Get Ayah Of The Day
+
+`GET https://quran-hadith-api.onrender.com/api/v1/ayah-of-the-day`
+
+#### Get Hadith Of The Day
+
+`GET https://quran-hadith-api.onrender.com/api/v1/hadith-of-the-day`
 
 ## Contributing
 
