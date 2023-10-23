@@ -13,7 +13,7 @@
     "start": "nodemon server.js"
   },
   "name": "quran-hadith-api",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "RESTful api for fetching Quran and Hadiths",
   "main": "server.js",
   "author": "Youssef Rafie",
