@@ -2,8 +2,8 @@ import express from "express";
 import helmet from "helmet";
 import cors from "cors";
 
-import { AppError } from "./utils/app_error.js";
-import { errorHandler } from "./utils/error_handler.js";
+import AppError from "./utils/app_error.js";
+import errorHandler from "./utils/error_handler.js";
 import homeRouter from "./routes/home_router.js";
 import surahRouter from "./routes/surah_router.js";
 import ayahRouter from "./routes/ayah_router.js";

@@ -1,4 +1,4 @@
-# Quran & Hadith RESTful API [1.1.0]
+# Quran & Hadith RESTful API [1.1.1]
 
 You can use this API to fetch data about the holy Quran and Hadiths (Arabic / English) for your app or website
 

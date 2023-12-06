@@ -1,4 +1,4 @@
-import { AppError } from "../utils/app_error.js";
+import AppError from "../utils/app_error.js";
 import { catchAsync } from "../utils/catch_async.js";
 
 export const getAll = (Model) =>
