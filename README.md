@@ -2,6 +2,11 @@
 
 You can use this API to fetch data about the holy Quran and Hadiths (Arabic / English) for your app or website
 
+## Technologies Used
+
+- NodeJS (express)
+- MongoDB (mongoose)
+
 ## Data Count
 
 - Surahs : 114
